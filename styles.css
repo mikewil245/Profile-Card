@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;}
+
+     .top-pattern{
+        position: fixed;
+        bottom: 137px;
+        left: -350px;
+     }
+
+     .bottom-pattern{
+        position: fixed;
+        right: -340px;
+        top: 270px;
+     }
+
+     .profile-container{
+        width: 350px;
+        height: 374px;
+        background-color: white;
+        border-radius: 10px;}
+
+        .pattern-card{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .profile-pic{
+            position: relative;
+            bottom: 59px;
+            text-align: center; }
+
+            .victor{
+                border: 5px solid white;
+                border-radius: 50%; 
+            }
+
+            .london{
+                margin-top: 3px;
+            }
+
+            .small-font{
+                font-size: 10px;
+            }
+
+            .info-section{
+                width: 313px;
+                height: 76px;
+                position: relative;
+                bottom: 40px;
+                left: 20px;
+            }
+
+            .info{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+color: hsl(229, 23%, 23%);
+            }
+
+            hr{
+                position: relative;
+                bottom: 50px;
+            }
+
+            .big-font{
+                font: bold;
+                color: #4C4E52;
+            }
+
+            .followers-content{
+                width: 334px;
+                height: 86px;
+                
+                color:  hsl(229, 23%, 23%);
+                font-family: 'Kumbh Sans', sans-serif;
+                display: flex;
+                gap: 15px;
+               justify-content: space-evenly;}
+
+               .followers{
+                position: relative;
+                bottom: 30px;
+               }
+
+                
+                 #fixed{
+                    position: relative;
+                    right: 5px;
+                 }
+
+            
+
+
+  
+    
+    
+   
